@@ -1,0 +1,5 @@
+{
+  "execMap": {
+    "ts": "yarn lint && ts-node src/index.ts"
+  }
+}
