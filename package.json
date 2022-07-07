@@ -1,0 +1,24 @@
+{
+  "name": "simple-typescript-eslint-prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AdautoDCJunior/simple-typescript-eslint-prettier",
+  "author": "Adauto Júnior <adautodcjunior@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts",
+    "build": "yarn tsc",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "format": "prettier --write \"**/*.+(js|ts|json)\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.5",
+    "@typescript-eslint/parser": "^5.30.5",
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
