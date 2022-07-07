@@ -1,0 +1,11 @@
+{
+  "name": "simple-typescript-eslint-prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AdautoDCJunior/simple-typescript-eslint-prettier",
+  "author": "Adauto Júnior <adautodcjunior@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
